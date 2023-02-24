@@ -29,7 +29,6 @@ Esse projeto é utilizado no curso 4 da formação base de React Native da plata
 Esse projeto foi desenvolvido com a utilização das seguintes tecnologias:
 
 - [React Native][rn]
-- [Expo][expo]
 
 ## :information_source: Como usar
 
@@ -53,8 +52,11 @@ $ npm install
 ### Executar o Mobile
 
 ```bash
-# Execute em outro terminal (dentro da pasta AluraHub)
-$ expo start
+# Execute em outro terminal (dentro da pasta WebApi)
+$ npx react-native start
+
+# Depois disso abra outro terminal (dentro da pasta WebApi)
+$ npx react-native run-android
 ```
 
 Espero que você utilize ao máximo deste projeto para se aprimorar! :wave:
